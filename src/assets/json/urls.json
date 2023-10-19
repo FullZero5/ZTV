@@ -55,54 +55,9 @@
     "id": 41
   },
   {
-    "title": "Киносезон HD",
-    "file": "https://s12.federal.tv:8082/feda/kinosezon.stream/playlist.m3u8",
-    "id": 42
-  },
-  {
-    "title": "Movie Classic",
-    "file": "https://s12.federal.tv:8082/feda/kkino.stream/playlist.m3u8",
-    "id": 43
-  },
-  {
-    "title": "Viju+ Premiere HD",
-    "file": "https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 44
-  },
-  {
-    "title": "Наше новое кино",
-    "file": "http://91.197.104.34:8080/NasheNovoeKino/video.m3u8",
-    "id": 45
-  },
-  {
-    "title": "BCU Premiere HD",
-    "file": "http://217.107.34.114:8001/playlist.m3u8",
-    "id": 46
-  },
-  {
-    "title": "Дом кино Премиум HD",
-    "file": "http://46.151.151.245:10007/play/a009",
-    "id": 47
-  },
-  {
-    "title": "Viju+ Megahit HD",
-    "file": "https://bl.uma.media/live/485537/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 48
-  },
-  {
     "title": "Amedia Hit HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8",
     "id": 49
-  },
-  {
-    "title": "Amedia Premium HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/dash/amedia_premium_hd/playlist.mpd",
-    "id": 50
-  },
-  {
-    "title": "Viju TV1000 Action HD",
-    "file": "https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 52
   },
   {
     "title": "A1 HD",
