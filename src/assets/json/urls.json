@@ -1,23 +1,5 @@
 [
   {
-    "title": "Первый канал HD",
-    "file": "https://live-okkotv.cdnvideo.ru/okkotv/1tv.smil/tracks-v1a1/mono.m3u8",
-    "id": 0,
-    "work": false
-  },
-  {
-    "title": "Первый канал +2",
-    "file": "http://213.59.128.165:8888/play/Pervij/index.m3u8",
-    "id": 1,
-    "work": false
-  },
-  {
-    "title": "Первый канал +4",
-    "file": "http://94.230.240.12:8080/ort/index.m3u8",
-    "id": 2,
-    "work": false
-  },
-  {
     "title": "Россия 1 HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8",
     "id": 3,
