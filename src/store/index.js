@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import urlsData from '../assets/json/urls.json'
+import { groupBy } from '../function/utils'
 
 export const useUrlsStore = defineStore('urls', {
   state: () => ({
@@ -25,6 +26,9 @@ export const useUrlsStore = defineStore('urls', {
       }): this.urls
     },
     getSelectUrl() { return this.selectUrl    },
-    getFirstUrl()  { return this.urls[0].file }
+    getFirstUrl()  { return this.urls[0].file },
+    getGroupUrls() {
+      return groupBy(this.urls, 'group')
+    }
   }
 })
