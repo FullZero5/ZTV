@@ -1,6 +1,6 @@
 <template>
     <p class="my-10 text-sm text-center text-gray-500">
-      &copy; {{ formattedYear }} <a href="#" class="hover:underline" target="_blank">Zырь TV</a>. Show TV you Browser.
+      &copy; {{ formattedYear }} <a href="#" class="hover:underline" target="_blank">Zырь TV</a>. Watch TV directly in your browser 
     </p>
   </template>
   
