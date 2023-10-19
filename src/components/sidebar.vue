@@ -1,6 +1,7 @@
 <template>
     <aside id="sidebar"
-        class="fixed top-0 left-0 z-20 flex flex-col flex-shrink-0 w-64 h-full pt-16 font-normal duration-75 lg:flex transition-width hidden"
+        class="fixed top-0 left-0 z-20 flex flex-col flex-shrink-0 w-64 h-full pt-16 font-normal duration-75 lg:flex transition-width "
+        :class="menu?'hidden':null"
         aria-label="Sidebar">
         <div
             class="relative flex flex-col flex-1 min-h-0 pt-0 bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
@@ -40,10 +41,12 @@
 <script>
 import { useUrlsStore } from '../store'
 import { ref, watch, computed } from 'vue'
+import { storeToRefs } from 'pinia'
 
 export default {
     setup() {
         const urlsStore = useUrlsStore()
+        const { getMenu } = storeToRefs(urlsStore)
         urlsStore.fetchUrls()
         const searchTerm = ref('')
         const getId = (id) => urlsStore.selectVideo(id)
@@ -59,7 +62,8 @@ export default {
         return {
             getId,
             searchTerm,
-            filteredUrls: filteredUrls
+            filteredUrls: filteredUrls,
+            menu: getMenu
         }
     }
 }
