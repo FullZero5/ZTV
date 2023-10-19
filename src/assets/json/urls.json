@@ -6,33 +6,9 @@
     "work": true
   },
   {
-    "title": "Россия 1 +2",
-    "file": "http://213.59.128.165:8888/play/Rossiya_1/index.m3u8",
-    "id": 4,
-    "work": false
-  },
-  {
-    "title": "Россия 1 +4",
-    "file": "http://94.230.240.17:8080/rossia1/index.m3u8",
-    "id": 5,
-    "work": false
-  },
-  {
     "title": "Пятый канал",
     "file": "https://okkotv-live.cdnvideo.ru/channel/5_OTT/480p.m3u8",
     "id": 6,
-    "work": false
-  },
-  {
-    "title": "Пятый канал +2",
-    "file": "http://213.59.128.165:8888/play/Pyatyj_kanal/index.m3u8",
-    "id": 7,
-    "work": false
-  },
-  {
-    "title": "Пятый канал +4",
-    "file": "http://94.230.240.17:8080/5kanal/index.m3u8",
-    "id": 8,
     "work": false
   },
   {
@@ -48,70 +24,16 @@
     "work": false
   },
   {
-    "title": "ОТР",
-    "file": "http://94.230.240.17:8080/otp/index.m3u8",
-    "id": 11,
-    "work": false
-  },
-  {
-    "title": "ОТР+4",
-    "file": "http://213.59.128.165:8888/play/OTR/index.m3u8",
-    "id": 12,
-    "work": false
-  },
-  {
     "title": "ТВ Центр",
     "file": "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8",
     "id": 13,
     "work": true
   },
   {
-    "title": "ТВ ЦентР+2",
-    "file": "http://213.59.128.165:8888/play/TV_Centr/index.m3u8",
-    "id": 14,
-    "work": false
-  },
-  {
-    "title": "РенТВ",
-    "file": "https://s12.federal.tv:8082/feda/rentv.stream/playlist.m3u8",
-    "id": 15,
-    "work": false
-  },
-  {
     "title": "РенТВ HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8",
     "id": 16,
     "work": true
-  },
-  {
-    "title": "РенТВ HD (Для зарубежья)",
-    "file": "http://91.197.104.34:8080/rentv/video.m3u8",
-    "id": 17,
-    "work": false
-  },
-  {
-    "title": "РенТВ +2",
-    "file": "http://213.59.128.165:8888/play/Ren_TV/index.m3u8",
-    "id": 18,
-    "work": false
-  },
-  {
-    "title": "РенТВ +4",
-    "file": "http://94.230.240.12:8080/rentv/index.m3u8",
-    "id": 19,
-    "work": false
-  },
-  {
-    "title": "РенТВ International",
-    "file": "http://45.159.74.14:80/RenTv/index.m3u8",
-    "id": 20,
-    "work": false
-  },
-  {
-    "title": "Домашний",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT/480p.m3u8",
-    "id": 21,
-    "work": false
   },
   {
     "title": "Домашний HD",
@@ -129,29 +51,9 @@
     "id": 24
   },
   {
-    "title": "ТВ3 +2",
-    "file": "http://213.59.128.165:8888/play/TV_3/index.m3u8",
-    "id": 25
-  },
-  {
-    "title": "ТВ3 +4",
-    "file": "http://94.230.240.17:8080/tv3/index.m3u8",
-    "id": 26
-  },
-  {
     "title": "Звезда",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Zvezda_SD/480p.m3u8",
     "id": 27
-  },
-  {
-    "title": "Звезда +2",
-    "file": "http://213.59.128.165:8888/play/Zvezda/index.m3u8",
-    "id": 28
-  },
-  {
-    "title": "Звезда +4",
-    "file": "http://94.230.240.12:8080/zvezda/index.m3u8",
-    "id": 29
   },
   {
     "title": "МиРHD",
