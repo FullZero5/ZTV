@@ -26,7 +26,7 @@
     </aside>
 </template>
 <script>
-import { useUrlsStore } from '../store'
+import { useUIelements } from '../store/ui.js'
 import { storeToRefs } from 'pinia'
 import MainMenu from './menu.vue'
 
@@ -35,9 +35,9 @@ export default {
         MainMenu
     },
     setup() {
-        const urlsStore = useUrlsStore()
-        const { getMenu } = storeToRefs(urlsStore)
-        urlsStore.fetchUrls()
+        const uiStore = useUIelements()
+        const { getMenu } = storeToRefs(uiStore)
+        
         return {
             menu: getMenu
         }

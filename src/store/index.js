@@ -5,8 +5,7 @@ import { groupBy } from '../function/utils'
 export const useUrlsStore = defineStore('urls', {
   state: () => ({
     selectUrl: null,
-    urls: [],
-    menu: true
+    urls: []
   }),
   actions: {
     async fetchUrls() {
@@ -15,11 +14,9 @@ export const useUrlsStore = defineStore('urls', {
     selectVideo(id) {
       const { file } = id ? this.urls.find( item => item.id === id) : this.urls[0].file
       this.selectUrl = file
-    },
-    togleMenu() { this.menu = this.menu ? false : true }
+    }
   },
   getters: {
-    getMenu(){ return this.menu },
     filteredUrls(searchTerm){
       return searchTerm ? this.urls.filter((item) => {
         return item.title.includes('');

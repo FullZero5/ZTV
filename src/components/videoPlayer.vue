@@ -3,6 +3,7 @@ import { ref, onMounted, watch } from 'vue'
 import { loadVideo } from '../function/videoHls'
 import { useUrlsStore } from '../store'
 import { storeToRefs } from 'pinia'
+import image from "../assets/loading.gif"
 
 export default {
   setup() {
@@ -21,7 +22,7 @@ export default {
 </script>
 
 <template>
-  <video ref="streamVideo" controls playsinline autoplay loop class="w-full h-full">Your browser does not support the
+  <video ref="streamVideo" controls playsinline autoplay loop class="w-full h-full" poster="../assets/loading.gif" preload="metadata">Your browser does not support the
     video tag</video>
 </template>
 
