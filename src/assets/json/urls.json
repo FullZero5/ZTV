@@ -216,13 +216,8 @@
   },
   {
     "title": "Дорама HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Dorama_HD/1080p.m3u8",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/Dorama_HD/1080p.m3u8",
     "id": 72
-  },
-  {
-    "title": "Еврокино",
-    "file": "http://176.74.80.162:8099/EuroKino/index.m3u8",
-    "id": 73
   },
   {
     "title": "СапфиРHD",
@@ -230,39 +225,9 @@
     "id": 74
   },
   {
-    "title": "Киноужас HD",
-    "file": "http://91.197.104.34:8080/Kinouzhas/video.m3u8",
-    "id": 75
-  },
-  {
-    "title": "Остросюжетное HD",
-    "file": "http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8",
-    "id": 76
-  },
-  {
-    "title": "Шокирующее HD",
-    "file": "http://195.161.68.11:8006/playlist.m3u8",
-    "id": 77
-  },
-  {
-    "title": "Карусель +2",
-    "file": "http://213.59.128.165:8888/play/Karusel/index.m3u8",
-    "id": 78
-  },
-  {
-    "title": "Карусель +4",
-    "file": "http://94.230.240.17:8080/karusel/index.m3u8",
-    "id": 79
-  },
-  {
     "title": "СТС Kids",
     "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD/1080p.m3u8",
     "id": 80
-  },
-  {
-    "title": "Мультиландия",
-    "file": "http://217.107.34.114:8008/playlist.m3u8",
-    "id": 81
   },
   {
     "title": "Мультиландия HD",
@@ -270,84 +235,9 @@
     "id": 82
   },
   {
-    "title": "Gulli Girl",
-    "file": "http://live-3.otcnet.ru/Gulli_OT/index.m3u8",
-    "id": 83
-  },
-  {
-    "title": "Советские мультфильмы",
-    "file": "https://cdn-cache01.voka.tv:443/live/3007.m3u8",
-    "id": 84
-  },
-  {
-    "title": "Nickelodeon HD",
-    "file": "http://45.144.31.195:8026/playlist.m3u8",
-    "id": 85
-  },
-  {
     "title": "Duck TV HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/DuckTV/1080p.m3u8",
     "id": 86
-  },
-  {
-    "title": "Уникум",
-    "file": "http://91.197.104.34:8080/Unicum/video.m3u8",
-    "id": 87
-  },
-  {
-    "title": "Сказки Зайки",
-    "file": "https://cdn-cache01.voka.tv:443/live/3016.m3u8",
-    "id": 88
-  },
-  {
-    "title": "Жара Kids TV",
-    "file": "http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8",
-    "id": 89
-  },
-  {
-    "title": "ПлюсПлюс",
-    "file": "http://149.5.17.34:20041/play/a06q",
-    "id": 90
-  },
-  {
-    "title": "Пiксель HD",
-    "file": "http://149.5.17.34:20041/play/a05s",
-    "id": 91
-  },
-  {
-    "title": "2x2",
-    "file": "https://s12.federal.tv:8082/feda/dvatv.stream/playlist.m3u8",
-    "id": 92
-  },
-  {
-    "title": "2x2 HD",
-    "file": "https://bl.uma.media/live/317805/HLS/317805_3/1/1/playlist.m3u8",
-    "id": 93
-  },
-  {
-    "title": "Discovery",
-    "file": "https://cdn-cache01.voka.tv:443/live/5115.m3u8",
-    "id": 94
-  },
-  {
-    "title": "Global Star",
-    "file": "http://live-1.otcnet.ru/globalstar/tracks-v1a1/mono.m3u8",
-    "id": 95
-  },
-  {
-    "title": "TVM Channel",
-    "file": "http://tv.tvip-media.net/tvmchannel/tracks-v1a0/time-0.m3u8",
-    "id": 96
-  },
-  {
-    "title": "КВН ТВ",
-    "file": "http://91.197.104.34:8080/KVN/video.m3u8",
-    "id": 97
-  },
-  {
-    "title": "Продвижение",
-    "file": "http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8",
-    "id": 98
   },
   {
     "title": "ТНТ HD",
@@ -360,49 +250,9 @@
     "id": 100
   },
   {
-    "title": "ТНТ +2",
-    "file": "http://213.59.128.165:8888/play/TNT/index.m3u8",
-    "id": 101
-  },
-  {
-    "title": "ТНТ +4",
-    "file": "http://94.230.240.17:8080/tnt/index.m3u8",
-    "id": 102
-  },
-  {
-    "title": "ТНТ International (Европа)",
-    "file": "http://87.120.142.8:12000/TNTComedy",
-    "id": 103
-  },
-  {
-    "title": "ТНТ4 HD",
-    "file": "https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 104
-  },
-  {
-    "title": "Точка ТВ",
-    "file": "http://tochkatv-live.cdnvideo.ru/tochkatv2/MPEGTS.TOCHKA.stream/playlist.m3u8",
-    "id": 105
-  },
-  {
-    "title": "Успех",
-    "file": "http://146.158.0.56:80/Uspeh/index.m3u8",
-    "id": 106
-  },
-  {
-    "title": "Че!",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Che_OTT_2/480p.m3u8",
-    "id": 107
-  },
-  {
     "title": "Эхо TV",
     "file": "https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8",
     "id": 108
-  },
-  {
-    "title": "Ратник",
-    "file": "http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8",
-    "id": 109
   },
   {
     "title": "СТС HD",
@@ -413,16 +263,6 @@
     "title": "СТС",
     "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/480p.m3u8",
     "id": 111
-  },
-  {
-    "title": "СТС +2",
-    "file": "http://213.59.128.165:8888/play/STS/index.m3u8",
-    "id": 112
-  },
-  {
-    "title": "СТС +4",
-    "file": "http://94.230.240.12:8080/sts/index.m3u8",
-    "id": 113
   },
   {
     "title": "СТС Love",
@@ -440,84 +280,9 @@
     "id": 116
   },
   {
-    "title": "Пятница +2",
-    "file": "http://213.59.128.165:8888/play/Pyatnica/index.m3u8",
-    "id": 117
-  },
-  {
-    "title": "Пятница +4",
-    "file": "http://94.230.240.17:8080/friday/index.m3u8",
-    "id": 118
-  },
-  {
-    "title": "Суббота! HD",
-    "file": "https://bl.uma.media/live/317845/HLS/317845_3/1/1/playlist.m3u8",
-    "id": 119
-  },
-  {
-    "title": "Танцуй!",
-    "file": "http://185.235.187.10:8888/play/a04f/index.m3u8",
-    "id": 120
-  },
-  {
-    "title": "ТДК",
-    "file": "http://31.148.48.15:80/TDK/index.m3u8?token=test",
-    "id": 121
-  },
-  {
-    "title": "English Club TV",
-    "file": "https://cdn-cache01.voka.tv:443/live/239.m3u8",
-    "id": 122
-  },
-  {
-    "title": "HD Media",
-    "file": "http://tv.tvip-media.net/hdmedia/tracks-v1a0/time-0.m3u8",
-    "id": 123
-  },
-  {
-    "title": "Терра РРнкогнита",
-    "file": "https://cdn-cache01.voka.tv:443/live/3017.m3u8",
-    "id": 124
-  },
-  {
-    "title": "Curiosity Stream HD",
-    "file": "https://cdn-cache01.voka.tv:443/live/994.m3u8",
-    "id": 125
-  },
-  {
-    "title": "Discovery Science",
-    "file": "http://81.177.136.209:8004/playlist.m3u8",
-    "id": 126
-  },
-  {
     "title": "Da Vinci",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Da_Vinci.m3u8",
     "id": 127
-  },
-  {
-    "title": "Первый космический",
-    "file": "http://ott-cdn.ucom.am/s44/04.m3u8",
-    "id": 128
-  },
-  {
-    "title": "Первый космический HD",
-    "file": "http://stream01.vnet.am/Evrika/mono.m3u8",
-    "id": 129
-  },
-  {
-    "title": "Наука 2.0 HD",
-    "file": "http://stream01.vnet.am/Nauka/mono.m3u8",
-    "id": 130
-  },
-  {
-    "title": "Планета HD Media",
-    "file": "https://cdn-cache01.voka.tv:443/live/3005.m3u8",
-    "id": 131
-  },
-  {
-    "title": "Investigation Discovery",
-    "file": "http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8",
-    "id": 132
   },
   {
     "title": "Terra HD",
@@ -525,34 +290,9 @@
     "id": 133
   },
   {
-    "title": "Animal Planet",
-    "file": "http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8",
-    "id": 134
-  },
-  {
-    "title": "Nat Geo Wild",
-    "file": "http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8",
-    "id": 135
-  },
-  {
-    "title": "Океан",
-    "file": "http://146.158.0.56:80/OceanTV/index.m3u8",
-    "id": 136
-  },
-  {
-    "title": "Viju+ Planet HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_History_HD/1080p.m3u8",
-    "id": 137
-  },
-  {
     "title": "Viju Nature HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD/1080p.m3u8",
     "id": 138
-  },
-  {
-    "title": "В мире животных",
-    "file": "http://ott.watch/stream/KD8IR5FDPF/241.m3u8",
-    "id": 139
   },
   {
     "title": "Zooпарк",
@@ -565,21 +305,6 @@
     "id": 141
   },
   {
-    "title": "DTX HD",
-    "file": "http://45.159.74.14:80/DTX/tracks-v1a2/mono.m3u8",
-    "id": 142
-  },
-  {
-    "title": "РЖД HD",
-    "file": "http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8",
-    "id": 143
-  },
-  {
-    "title": "Драйв",
-    "file": "https://tbs01-edge11.itdc.ge/drive/tracks-v1a1/mono.m3u8",
-    "id": 144
-  },
-  {
     "title": "Viju Explore HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD/1080p.m3u8",
     "id": 145
@@ -590,54 +315,14 @@
     "id": 146
   },
   {
-    "title": "Здоровое ТВ",
-    "file": "http://109.197.192.121:8080/zdorovoe/index.m3u8",
-    "id": 147
-  },
-  {
-    "title": "Открытый мир",
-    "file": "http://146.158.0.56/OtkritiyMir/mono.m3u8",
-    "id": 148
-  },
-  {
-    "title": "ЕГЭ",
-    "file": "http://146.158.0.56:80/EGETV/index.m3u8",
-    "id": 149
-  },
-  {
-    "title": "Univer TV",
-    "file": "http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8",
-    "id": 150
-  },
-  {
-    "title": "МосОбРТВ",
-    "file": "http://retc.educom.ru/mosobrtv/tv1/index.m3u8",
-    "id": 151
-  },
-  {
-    "title": "Театр",
-    "file": "http://146.158.0.56:80/Teatr/index.m3u8",
-    "id": 152
-  },
-  {
     "title": "360 Новости",
     "file": "https://okkotv-live.cdnvideo.ru/channel/360_Novosti_HD/1080p.m3u8",
     "id": 153
   },
   {
-    "title": "Euronews",
-    "file": "http://tv.tvip-media.net/euronews/tracks-v1a0/time-0.m3u8",
-    "id": 154
-  },
-  {
-    "title": "РРзвестия",
+    "title": "Известия",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2/1080p.m3u8",
     "id": 155
-  },
-  {
-    "title": "Крик ТВ",
-    "file": "http://tv.tvip-media.net/kriktv/tracks-v1a0/time-0.m3u8",
-    "id": 156
   },
   {
     "title": "Россия 24",
@@ -653,16 +338,6 @@
     "title": "Красная линия",
     "file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8",
     "id": 160
-  },
-  {
-    "title": "Дикий",
-    "file": "http://217.107.34.114:8007/playlist.m3u8",
-    "id": 161
-  },
-  {
-    "title": "Рыбалка и охота",
-    "file": "https://cdn-cache01.voka.tv:443/live/244.m3u8",
-    "id": 162
   },
   {
     "title": "Fashion TV HD",
