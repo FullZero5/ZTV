@@ -645,11 +645,6 @@
     "id": 157
   },
   {
-    "title": "RT English HD",
-    "file": "https://s12.federal.tv:8082/feda/rttv.stream/playlist.m3u8",
-    "id": 158
-  },
-  {
     "title": "Дума ТВ",
     "file": "https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8",
     "id": 159
@@ -675,84 +670,9 @@
     "id": 163
   },
   {
-    "title": "FashionBox",
-    "file": "http://146.158.0.56:80/FashionBox/index.m3u8",
-    "id": 164
-  },
-  {
     "title": "World Fashion Channel",
     "file": "https://live-3.otcnet.ru/wfcrusmulti/index.m3u8",
     "id": 165
-  },
-  {
-    "title": "Загородная жизнь",
-    "file": "http://217.107.34.114:8009/playlist.m3u8",
-    "id": 166
-  },
-  {
-    "title": "Загородный",
-    "file": "http://ott-cdn.ucom.am/s31/04.m3u8",
-    "id": 167
-  },
-  {
-    "title": "Бобëр",
-    "file": "http://195.26.83.96:7022/play/a00t/index.m3u8",
-    "id": 168
-  },
-  {
-    "title": "HGTV English",
-    "file": "http://streamer.enchart.one/42/64d7dbe65e57521ae6b478a3541feea3269dd666/890/stream.m3u8",
-    "id": 169
-  },
-  {
-    "title": "HGTV English (Резерв)",
-    "file": "http://streamer.enchart.one/42/03e656b8b4d21ceed53e946ffd484365a2ac50ec/890/stream.m3u8",
-    "id": 170
-  },
-  {
-    "title": "Еда",
-    "file": "http://u.vipl.one/high/mtpy4cu872/518.m3u8",
-    "id": 171
-  },
-  {
-    "title": "Еда Премиум Международный",
-    "file": "https://cdn-cache01.voka.tv:443/live/991.m3u8",
-    "id": 172
-  },
-  {
-    "title": "Телекафе",
-    "file": "http://46.151.151.245:10007/play/a003",
-    "id": 173
-  },
-  {
-    "title": "Food Network",
-    "file": "http://ott-cdn.ucom.am/s18/04.m3u8",
-    "id": 174
-  },
-  {
-    "title": "JoyCook",
-    "file": "http://tv.tvip-media.net/joycook/tracks-v1a0/time-0.m3u8",
-    "id": 175
-  },
-  {
-    "title": "КтоКуда",
-    "file": "http://146.158.0.56:80/MirUvlecheniy/index.m3u8",
-    "id": 176
-  },
-  {
-    "title": "Мужской",
-    "file": "http://81.177.136.209:8006/playlist.m3u8",
-    "id": 177
-  },
-  {
-    "title": "Конный мир",
-    "file": "https://bl.uma.media/live/400930/HLS/4614144_4/1/1/playlist.m3u8",
-    "id": 178
-  },
-  {
-    "title": "МузСоюз",
-    "file": "http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8",
-    "id": 179
   },
   {
     "title": "Три ангела",
@@ -768,16 +688,6 @@
     "title": "Setanta Sports Ukraine",
     "file": "https://tv.movielab.pro/942/video.m3u8",
     "id": 182
-  },
-  {
-    "title": "Eurosport 1",
-    "file": "http://45.144.31.195:8016/playlist.m3u8",
-    "id": 183
-  },
-  {
-    "title": "Матч! Арена HD",
-    "file": "http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8",
-    "id": 184
   },
   {
     "title": "Viju+ Sport",
