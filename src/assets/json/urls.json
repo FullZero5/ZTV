@@ -50,16 +50,6 @@
     "id": 38
   },
   {
-    "title": "312",
-    "file": "http://176.126.166.43:1935/live/312musik/playlist.m3u8",
-    "id": 39
-  },
-  {
-    "title": "312 Кино",
-    "file": "http://176.126.166.43:1935/live/312kino/playlist.m3u8",
-    "id": 40
-  },
-  {
     "title": "Kino24",
     "file": "https://sirius.greenhosting.ru/Kino24Ru/video.m3u8",
     "id": 41
@@ -101,18 +91,13 @@
   },
   {
     "title": "Amedia Hit HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8",
     "id": 49
   },
   {
     "title": "Amedia Premium HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/dash/amedia_premium_hd/playlist.mpd",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/dash/amedia_premium_hd/playlist.mpd",
     "id": 50
-  },
-  {
-    "title": "Премиальное HD",
-    "file": "http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8",
-    "id": 51
   },
   {
     "title": "Viju TV1000 Action HD",
@@ -121,7 +106,7 @@
   },
   {
     "title": "A1 HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/A1_HD/1080p.m3u8",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/A1_HD/1080p.m3u8",
     "id": 53
   },
   {
@@ -140,29 +125,19 @@
     "id": 56
   },
   {
-    "title": "Русский роман HD",
-    "file": "http://46.151.151.245:10002/play/a0b3",
-    "id": 57
-  },
-  {
     "title": "A2 HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/A2_HD/1080p.m3u8",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/A2_HD/1080p.m3u8",
     "id": 58
   },
   {
     "title": ".red",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Sony_ET/480p.m3u8",
+    "file": "https://okkotv-live.cdnvideo.ru/channel/Sony_ET/480p.m3u8",
     "id": 59
   },
   {
     "title": "Star Cinema HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8",
     "id": 60
-  },
-  {
-    "title": "Viju TV1000 Русское кино HD",
-    "file": "https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 61
   },
   {
     "title": "Start Air HD",
@@ -175,39 +150,9 @@
     "id": 63
   },
   {
-    "title": "BCU СССРHD",
-    "file": "http://217.107.34.114:8006/playlist.m3u8",
-    "id": 64
-  },
-  {
-    "title": "Советское кино",
-    "file": "https://cdn-cache01.voka.tv:443/live/3018.m3u8",
-    "id": 65
-  },
-  {
-    "title": "Viju+ Comedy HD",
-    "file": "https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 66
-  },
-  {
-    "title": "Comedy Central English",
-    "file": "http://208.86.19.13:81/22.stream/index.m3u8",
-    "id": 67
-  },
-  {
-    "title": "Viju+ Serial HD",
-    "file": "https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 68
-  },
-  {
-    "title": ".sci-fi",
+    "title": "Sci Fi",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8",
     "id": 69
-  },
-  {
-    "title": "FAN",
-    "file": "http://94.230.240.17:8080/fan/index.m3u8",
-    "id": 70
   },
   {
     "title": "Кинеко HD",
