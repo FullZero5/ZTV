@@ -18,12 +18,6 @@
     "work": true
   },
   {
-    "title": "Россия К +4",
-    "file": "http://94.230.240.17:8080/kultura/index.m3u8",
-    "id": 10,
-    "work": false
-  },
-  {
     "title": "ТВ Центр",
     "file": "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8",
     "id": 13,
@@ -41,11 +35,6 @@
     "id": 22
   },
   {
-    "title": "Домашний +2",
-    "file": "http://213.59.128.165:8888/play/Domashnij/index.m3u8",
-    "id": 23
-  },
-  {
     "title": "ТВ3 HD",
     "file": "https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD/1080p.m3u8",
     "id": 24
@@ -54,46 +43,6 @@
     "title": "Звезда",
     "file": "https://okkotv-live.cdnvideo.ru/channel/Zvezda_SD/480p.m3u8",
     "id": 27
-  },
-  {
-    "title": "МиРHD",
-    "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8",
-    "id": 30
-  },
-  {
-    "title": "МиР+2",
-    "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8",
-    "id": 31
-  },
-  {
-    "title": "МиР+4",
-    "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8",
-    "id": 32
-  },
-  {
-    "title": "МиР+7",
-    "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8",
-    "id": 33
-  },
-  {
-    "title": "Viju TV1000 HD",
-    "file": "https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 34
-  },
-  {
-    "title": "Plan B HD",
-    "file": "http://31.148.6.4:10236/index.m3u8",
-    "id": 35
-  },
-  {
-    "title": "TV XXI",
-    "file": "https://cdn-cache01.voka.tv:443/live/2018.m3u8",
-    "id": 36
-  },
-  {
-    "title": "Феникс+Кино",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Phoenix_HD/1080p.m3u8",
-    "id": 37
   },
   {
     "title": "Start World HD",
@@ -836,123 +785,8 @@
     "id": 185
   },
   {
-    "title": "Матч! HD",
-    "file": "http://bl.uma.media/live/126836/HLS/317849_3/2/1/playlist.m3u8",
-    "id": 186
-  },
-  {
-    "title": "Матч! РРгра HD",
-    "file": "http://bl.uma.media/live/154036/HLS/154036_4/2/1/playlist.m3u8",
-    "id": 187
-  },
-  {
-    "title": "Матч! Планета",
-    "file": "http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8",
-    "id": 188
-  },
-  {
-    "title": "Матч! Страна",
-    "file": "https://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8",
-    "id": 189
-  },
-  {
-    "title": "Старт HD",
-    "file": "http://okkotv-live.cdnvideo.ru/channel/Start.m3u8",
-    "id": 190
-  },
-  {
-    "title": "Старт Триумф HD",
-    "file": "https://okkotv-live.cdnvideo.ru/dash/start_triumph_hd/playlist.mpd",
-    "id": 191
-  },
-  {
-    "title": "Беларусь 5 РРнтернет",
-    "file": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8",
-    "id": 192
-  },
-  {
-    "title": "Q Sport",
-    "file": "http://89.254.128.5:22280/qsport/index.m3u8",
-    "id": 193
-  },
-  {
-    "title": "Матч! Футбол 1 HD",
-    "file": "http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8",
-    "id": 194
-  },
-  {
-    "title": "Матч! Футбол 2 HD",
-    "file": "http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8",
-    "id": 195
-  },
-  {
-    "title": "Матч! Футбол 3 HD",
-    "file": "http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8",
-    "id": 196
-  },
-  {
-    "title": "Матч! ПремьеРHD",
-    "file": "https://bl.uma.media/live/126866/HLS/6866944_4,4614144_3,2883584_2,1153024_1/1613528396/a906596714d5111da51743ee194afc5f/playlist.m3u8",
-    "id": 197
-  },
-  {
-    "title": "KHL HD",
-    "file": "https://okkotv-live.cdnvideo.ru/dash/khl_hd_2/playlist.mpd",
-    "id": 198
-  },
-  {
-    "title": "KHL Prime HD",
-    "file": "https://okkotv-live.cdnvideo.ru/dash/khl_prime_hd/playlist.mpd",
-    "id": 199
-  },
-  {
-    "title": "FightBox HD",
-    "file": "http://stream01.vnet.am/Fightbox/mono.m3u8",
-    "id": 200
-  },
-  {
-    "title": "MMA-TV",
-    "file": "http://94.230.240.17:8080/m1global/index.m3u8",
-    "id": 201
-  },
-  {
     "title": "Бокс ТВ",
     "file": "https://tbs01-edge11.itdc.ge/boxtv/tracks-v1a1/mono.m3u8",
     "id": 202
-  },
-  {
-    "title": "Матч! Боец",
-    "file": "http://bl.uma.media/live/132838/HLS/132838_4/2/1/playlist.m3u8",
-    "id": 203
-  },
-  {
-    "title": "Russian Extreme",
-    "file": "http://195.26.83.96:7029/play/a008",
-    "id": 204
-  },
-  {
-    "title": "1HD",
-    "file": "http://193.33.240.8:8080/1hd/index.m3u8",
-    "id": 205
-  },
-  {
-    "title": "MTV Classic",
-    "file": "http://22436a48.amazzin.pw/iptv/C9AAQCDMRHSBAF/142/index.m3u8",
-    "id": 206
-  },
-  {
-    "title": "MTV 00's",
-    "file": "http://89.254.128.5:22280/mtv_00/video.m3u8",
-    "id": 207
-  },
-  {
-    "title": "О2ТВ",
-    "file": "http://195.26.83.96:7006/play/1/index.m3u8",
-    "id": 208
-  },
-  {
-    "title": "Телеканал Радио Страна ФМ",
-    "file": "http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8",
-    "id": 209
   }
 ]
