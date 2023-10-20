@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "@vueuse/core": "^10.5.0",
     "flowbite": "^1.8.1",
     "hls.js": "^1.4.12",
