@@ -3,7 +3,6 @@ import { ref, onMounted, watch } from 'vue'
 import { loadVideo } from '../function/videoHls'
 import { useUrlsStore } from '../store'
 import { storeToRefs } from 'pinia'
-import image from "../assets/loading.gif"
 
 export default {
   setup() {
