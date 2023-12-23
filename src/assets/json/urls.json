@@ -1,333 +1,1108 @@
 [
-  {
-    "title": "Россия 1 HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8",
-    "id": 3,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Пятый канал",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/5_OTT/480p.m3u8",
-    "id": 6,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Россия К",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Russia_K_SD/480p.m3u8",
-    "id": 9,
-    "group": "Эфирные"
-  },
-  {
-    "title": "ТВ Центр",
-    "file": "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8",
-    "id": 13,
-    "group": "Эфирные"
-  },
-  {
-    "title": "РенТВ HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8",
-    "id": 16,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Домашний HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT/1080p.m3u8",
-    "id": 22,
-    "group": "Эфирные"
-  },
-  {
-    "title": "ТВ3 HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD/1080p.m3u8",
-    "id": 24,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Звезда",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Zvezda_SD/480p.m3u8",
-    "id": 27,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Start World HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/START_World_HD/1080p.m3u8",
-    "id": 38,
-    "group": "Разное"
-  },
-  {
-    "title": "Kino24",
-    "file": "https://sirius.greenhosting.ru/Kino24Ru/video.m3u8",
-    "id": 41,
-    "group": "Кино"
-  },
-  {
-    "title": "Amedia Hit HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8",
-    "id": 49,
-    "group": "Кино"
-  },
-  {
-    "title": "A1 HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/A1_HD/1080p.m3u8",
-    "id": 53,
-    "group": "Кино"
-  },
-  {
-    "title": "Black",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo/480p.m3u8",
-    "id": 54,
-    "group": "Разное"
-  },
-  {
-    "title": "Bolt HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Bolt_HD/1080p.m3u8",
-    "id": 55,
-    "group": "Кино"
-  },
-  {
-    "title": "Star Family HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8",
-    "id": 56,
-    "group": "Разное"
-  },
-  {
-    "title": "A2 HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/A2_HD/1080p.m3u8",
-    "id": 58,
-    "group": "Кино"
-  },
-  {
-    "title": "RED",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Sony_ET/480p.m3u8",
-    "id": 59,
-    "group": "Разное"
-  },
-  {
-    "title": "Star Cinema HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8",
-    "id": 60,
-    "group": "Кино"
-  },
-  {
-    "title": "Start Air HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/START_Air_HD/1080p.m3u8",
-    "id": 62,
-    "group": "Разное"
-  },
-  {
-    "title": "Кино 1 International",
-    "file": "https://kino-1.catcast.tv/content/38617/index.m3u8",
-    "id": 63,
-    "group": "Кино"
-  },
-  {
-    "title": "Sci Fi",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8",
-    "id": 69,
-    "group": "Разное"
-  },
-  {
-    "title": "Кинеко HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8",
-    "id": 71,
-    "group": "Кино"
-  },
-  {
-    "title": "Дорама HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Dorama_HD/1080p.m3u8",
-    "id": 72,
-    "group": "Разное"
-  },
-  {
-    "title": "СапфиРHD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8",
-    "id": 74,
-    "group": "Разное"
-  },
-  {
-    "title": "СТС Kids",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD/1080p.m3u8",
-    "id": 80,
-    "group": "Детям"
-  },
-  {
-    "title": "Мультиландия HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8",
-    "id": 82,
-    "group": "Детям"
-  },
-  {
-    "title": "Duck TV HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/DuckTV/1080p.m3u8",
-    "id": 86,
-    "group": "Разное"
-  },
-  {
-    "title": "ТНТ HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD/1080p.m3u8",
-    "id": 99,
-    "group": "Эфирные"
-  },
-  {
-    "title": "ТНТ",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD/480p.m3u8",
-    "id": 100,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Эхо TV",
-    "file": "https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8",
-    "id": 108,
-    "group": "Разное"
-  },
-  {
-    "title": "СТС HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/1080p.m3u8",
-    "id": 110,
-    "group": "Эфирные"
-  },
-  {
-    "title": "СТС",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/480p.m3u8",
-    "id": 111,
-    "group": "Эфирные"
-  },
-  {
-    "title": "СТС Love",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2/480p.m3u8",
-    "id": 114,
-    "group": "Разное"
-  },
-  {
-    "title": "Пятница! HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD/1080p.m3u8",
-    "id": 115,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Пятница",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD/480p.m3u8",
-    "id": 116,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Da Vinci",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Da_Vinci.m3u8",
-    "id": 127,
-    "group": "Разное"
-  },
-  {
-    "title": "Terra HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/NGC_HD/1080p.m3u8",
-    "id": 133,
-    "group": "Планета"
-  },
-  {
-    "title": "Viju Nature HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD/1080p.m3u8",
-    "id": 138,
-    "group": "Планета"
-  },
-  {
-    "title": "Zooпарк",
-    "file": "https://tbs01-edge11.itdc.ge/zoo/tracks-v1a1/mono.m3u8",
-    "id": 140,
-    "group": "Планета"
-  },
-  {
-    "title": "Viju History HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD/1080p.m3u8",
-    "id": 141,
-    "group": "Планета"
-  },
-  {
-    "title": "Viju Explore HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD/1080p.m3u8",
-    "id": 145,
-    "group": "Планета"
-  },
-  {
-    "title": "TravelXP English HD",
-    "file": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
-    "id": 146,
-    "group": "Планета"
-  },
-  {
-    "title": "360 Новости",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/360_Novosti_HD/1080p.m3u8",
-    "id": 153,
-    "group": "Новости"
-  },
-  {
-    "title": "Известия",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2/1080p.m3u8",
-    "id": 155,
-    "group": "Новости"
-  },
-  {
-    "title": "Россия 24",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Russia24/480p.m3u8",
-    "id": 157,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Дума ТВ",
-    "file": "https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8",
-    "id": 159,
-    "group": "Разное"
-  },
-  {
-    "title": "Красная линия",
-    "file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8",
-    "id": 160,
-    "group": "Разное"
-  },
-  {
-    "title": "Fashion TV HD",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Fashion_TV_HD/1080p.m3u8",
-    "id": 163,
-    "group": "Разное"
-  },
-  {
-    "title": "World Fashion Channel",
-    "file": "https://live-3.otcnet.ru/wfcrusmulti/index.m3u8",
-    "id": 165,
-    "group": "Разное"
-  },
-  {
-    "title": "Три ангела",
-    "file": "https://hls.tv.3angels.ru/stream.m3u8",
-    "id": 180,
-    "group": "Разное"
-  },
-  {
-    "title": "Спас",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Spas/480p.m3u8",
-    "id": 181,
-    "group": "Эфирные"
-  },
-  {
-    "title": "Setanta Sports Ukraine",
-    "file": "https://tv.movielab.pro/942/video.m3u8",
-    "id": 182,
-    "group": "Спорт"
-  },
-  {
-    "title": "Viju+ Sport",
-    "file": "https://okkotv-live.cdnvideo.ru/channel/Viasat_Sport_HD/1080p.m3u8",
-    "id": 185,
-    "group": "Спорт"
-  },
-  {
-    "title": "Бокс ТВ",
-    "file": "https://tbs01-edge11.itdc.ge/boxtv/tracks-v1a1/mono.m3u8",
-    "id": 202,
-    "group": "Спорт"
-  },
-  {
-    "title": "Кино +18",
-    "file": "https://autopilot.catcast.tv/content/40381/index.m3u8",
-    "id" : 999,
-    "group": "Кино"
-
-  }
+    {
+        "id": 1,
+        "file": "https://sitv.ru/hls/s861024.m3u8?checkedby:iptvcat.net",
+        "img": "http://online-red.com/images/tv/86.png",
+        "title": "86 канал (Сургут)",
+        "group": "Local",
+        "tag": [
+            "Local",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 2,
+        "file": "http://brodilo.tv/channel.php?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/GGLbJIi.jpg",
+        "title": "Brodilo TV",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 3,
+        "file": "https://www.djing.com/tv/s-28634-05-hedonist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Djing Hedonist HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 4,
+        "file": "https://www.djing.com/tv/i-28634-04.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Djing Hits",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 5,
+        "file": "https://www.djing.com/tv/28638-04.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Djing TV",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 6,
+        "file": "https://www.djing.com/tv/s-28634-05-wild-edm.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Djing Wild EDM HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 7,
+        "file": "https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_paris_pg_4dg_27027_paris_pg18_188_hls.smil/chunklist_b1400000_t64NDgwcA==.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "FTV Teens",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 8,
+        "file": "http://rtmp.one.by:2300/?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "First Music (Opt-1)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 9,
+        "file": "http://rtmp.one.by:1300/?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "First Music (Opt-2)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 10,
+        "file": "https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Kronehit HD",
+        "group": "Music",
+        "tag": [
+            "Music",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 11,
+        "file": "http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/D5M4Gjr.png",
+        "title": "RBK",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 12,
+        "file": "https://bsttv.bonus-tv.ru/cdn/salyam/playlist_sdhigh.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/thfF7IJ.jpg",
+        "title": "RU | Salyam",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 13,
+        "file": "https://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/vLpm8tN.png",
+        "title": "RU | TV BRICS China",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 14,
+        "file": "https://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/vLpm8tN.png",
+        "title": "RU | TV BRICS English",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 15,
+        "file": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.net",
+        "img": "http://blog.roku.com/wp-content/uploads/2015/03/Red-Bull-TV-logo.png",
+        "title": "Red Bull TV",
+        "group": "Sport",
+        "tag": [
+            "Sport",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 16,
+        "file": "http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Sochi Live HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 17,
+        "file": "http://89.28.25.122/hls/tnt_md.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "TNT_EXCLUSIV",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 18,
+        "file": "http://tvcom.stream.intelema.ru/tvcom/studio/tracks-v1a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "TnBnkom FHD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 19,
+        "file": "http://serv25.vintera.tv:8081/test/aris/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "АРИС 24",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 20,
+        "file": "http://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань 24",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 21,
+        "file": "http://streaming.astrakhan.ru/astrakhan24/tracks-v3a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань 24",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 22,
+        "file": "https://streaming.astrakhan.ru/astrakhan24/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань 24 HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 23,
+        "file": "http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru Sport",
+        "group": "Sport",
+        "tag": [
+            "Sport"
+        ],
+        "work": true
+    },
+    {
+        "id": 24,
+        "file": "http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru Sport",
+        "group": "Sport",
+        "tag": [
+            "Sport"
+        ],
+        "work": true
+    },
+    {
+        "id": 25,
+        "file": "http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru Sport",
+        "group": "Sport",
+        "tag": [
+            "Sport"
+        ],
+        "work": true
+    },
+    {
+        "id": 26,
+        "file": "http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v2a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru TV",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 27,
+        "file": "http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru TV",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 28,
+        "file": "http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v1a1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Астрахань.Ru TV",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 29,
+        "file": "http://live.gtrk.tv/720/b24-720.m3u8?checkedby:iptvcat.net",
+        "img": "https://gtrk.tv/sites/default/files/channels/mono/mono-b24.png",
+        "title": "Башкортостан 24",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": false
+    },
+    {
+        "id": 30,
+        "file": "http://live.gtrk.tv/hls/b24-hls.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Башкортостан 24 HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 31,
+        "file": "http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Ветта 24 (Пермь)",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 32,
+        "file": "http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Восток 24",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 33,
+        "file": "http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Вот ТВ HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 34,
+        "file": "http://www.gtk.tv/hls/gtyar.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Городской телеканал (Ярославль)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 35,
+        "file": "http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://www.guberniatv.ru/img/logo.png",
+        "title": "Губерния (Самара)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 36,
+        "file": "http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Губерния 33 HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 37,
+        "file": "http://strm.yandex.ru/kal/dialogi/dialogi0_169_480p.json/index-v1-a1.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "ДИАЛОГИ О РЫБАЛКЕ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 38,
+        "file": "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DOMASHNIY/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Домашний",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 39,
+        "file": "http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_DON24/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Дон 24",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 40,
+        "file": "http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://eurasia.orsk.ru/images/bg.jpg",
+        "title": "Евразия (Орск)",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 41,
+        "file": "http://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Евразия (Орск)",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 42,
+        "file": "http://serv25.vintera.tv:8081/test/k16/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "К16 (Саров)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 43,
+        "file": "http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://kab.tv/static/images/kab_tv_eng.gif",
+        "title": "Каббала ТВ",
+        "group": "Religious",
+        "tag": [
+            "Religious"
+        ],
+        "work": true
+    },
+    {
+        "id": 44,
+        "file": "http://2e9acc44.kartoshkaka.ru/iptv/W89SBYVY9AYC4E/728/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Киносвидание",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 45,
+        "file": "http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Конный Мир",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 46,
+        "file": "http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Липецкое время",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 47,
+        "file": "http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://xn--b1ats.xn--80asehdb/img/logo.png",
+        "title": "МТВ (Волгоград)",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 48,
+        "file": "http://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Матур ТВ HD",
+        "group": "Music",
+        "tag": [
+            "Music",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 49,
+        "file": "http://live.trkmillet.ru/millet/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Миллет",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 50,
+        "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://www.tv-logo.com/pt-data/uploads/images/logo/mir_ru.jpg",
+        "title": "Мир",
+        "group": "General",
+        "tag": [
+            "General",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 51,
+        "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.imgur.com/CrFWXTD.png",
+        "title": "Мир (+4)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 52,
+        "file": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://www.tv-logo.com/pt-data/uploads/images/logo/mir_24_ru.jpg",
+        "title": "Мир 24",
+        "group": "News",
+        "tag": [
+            "News"
+        ],
+        "work": true
+    },
+    {
+        "id": 53,
+        "file": "http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://mirbelogorya.ru/images/stories/news/2014/08/мир/0белогорья_логотип.jpg",
+        "title": "Мир Белагорья",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 54,
+        "file": "http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://mirbelogorya.ru/images/stories/news/2014/08/мир%20белогорья_логотип.jpg",
+        "title": "Мир Белогорья",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 55,
+        "file": "http://retc.educom.ru/mosobrtv/smil:tv.smil/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Московский Образовательный",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 56,
+        "file": "http://retc.educom.ru/mosobrtv/tv1/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://online-red.com/images/tv/mosobr.png",
+        "title": "Московский образовательный",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 57,
+        "file": "http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Муз союз",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 58,
+        "file": "https://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НВК Саха",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 59,
+        "file": "http://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НВК Саха",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 60,
+        "file": "http://hlsstr03.svc.iptv.rt.ru/hls/CH_NTV/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НТВ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 61,
+        "file": "http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НТВ (+1)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 62,
+        "file": "http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NTV_URAL_EKT/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НТВ (+2)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 63,
+        "file": "https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "НТМ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 64,
+        "file": "http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "http://saransk-tv.ru/assets/images/slider/170321-pic-01.jpg",
+        "title": "НТМ (Мордовия)",
+        "group": "Local",
+        "tag": [
+            "Local",
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 65,
+        "file": "http://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Надежда",
+        "group": "Religious",
+        "tag": [
+            "Religious"
+        ],
+        "work": true
+    },
+    {
+        "id": 66,
+        "file": "http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://hopetv.ru/wp-content/themes/hope.ua/public/img/header-hopeLogo.png",
+        "title": "Надежда",
+        "group": "Religious",
+        "tag": [
+            "Religious"
+        ],
+        "work": true
+    },
+    {
+        "id": 67,
+        "file": "http://ba5729d5.krasnafhg.ru/iptv/EAEWFFWBXPVVLY/915/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Наше Крутое HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 68,
+        "file": "http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png",
+        "title": "Небеса ТВ7",
+        "group": "Religious",
+        "tag": [
+            "Religious"
+        ],
+        "work": true
+    },
+    {
+        "id": 69,
+        "file": "http://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://nikatv.ru/public/img/logo2.png",
+        "title": "Ника TV",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 70,
+        "file": "https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Ника ТВ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 71,
+        "file": "http://serv25.vintera.tv:8081/novoetv/nov_tv/chunks.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Новое ТВ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 72,
+        "file": "http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Новый век",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 73,
+        "file": "http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Новый век",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 74,
+        "file": "http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "ОТС HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 75,
+        "file": "http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Первый Тульский HD",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 76,
+        "file": "http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_YARL_1TV/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Первый канал",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 77,
+        "file": "http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Первый канал (+1)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 78,
+        "file": "http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Первый канал (+3)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 79,
+        "file": "http://s14553.cdn.ngenix.net/hls/CH_R03_OTT_DV_SLIN_1TV_SLIN/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Первый канал (+8)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 80,
+        "file": "http://92.50.128.180/utv/1358/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://www.tv-logo.com/pt-data/uploads/images/logo/rbk_tv_ru.jpg",
+        "title": "РБК",
+        "group": "Business",
+        "tag": [
+            "Business"
+        ],
+        "work": true
+    },
+    {
+        "id": 81,
+        "file": "http://online-video.rbc.ru/online/rbctv_480p/index.m3u8?e=e8&t=IbzcGc&checkedby:iptvcat.net",
+        "img": "http://only-tv.org/images/rbk.png",
+        "title": "РБК",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 82,
+        "file": "http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://145.239.78.42/logos/rbk.png",
+        "title": "РБК",
+        "group": "Business",
+        "tag": [
+            "Business"
+        ],
+        "work": true
+    },
+    {
+        "id": 83,
+        "file": "http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://www.livenewsbox.com/wp-content/uploads/2015/05/RBC-TV1.jpg",
+        "title": "РБК",
+        "group": "Business",
+        "tag": [
+            "Business"
+        ],
+        "work": true
+    },
+    {
+        "id": 84,
+        "file": "http://online.video.rbc.ru/online/rbctv_576p/index.m3u8?checkedby:iptvcat.net",
+        "img": "http://www.tv-logo.com/pt-data/uploads/images/logo/rbk_tv_ru.jpg",
+        "title": "РБК",
+        "group": "Business",
+        "tag": [
+            "Business"
+        ],
+        "work": true
+    },
+    {
+        "id": 85,
+        "file": "http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "РТС (Хакасия)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 86,
+        "file": "http://video.govoritmoskva.ru:8080/live/rufmbk-1/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Радио Говорит Москва",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 87,
+        "file": "http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8?checkedby:iptvcat.net",
+        "img": "http://lion-tv.com/uploads/posts/2016-09/1472964269_178.png",
+        "title": "Радио Шансон",
+        "group": "Music",
+        "tag": [
+            "Music"
+        ],
+        "work": true
+    },
+    {
+        "id": 88,
+        "file": "http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Радио Шансон",
+        "group": "Music",
+        "tag": [
+            "Music"
+        ],
+        "work": true
+    },
+    {
+        "id": 89,
+        "file": "http://online-video.rbc.ru/online/rbctv.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Ратник",
+        "group": "Entertainment",
+        "tag": [
+            "Entertainment"
+        ],
+        "work": true
+    },
+    {
+        "id": 90,
+        "file": "http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Репортер 73 (Ульяновск)",
+        "group": "Sport",
+        "tag": [
+            "Sport"
+        ],
+        "work": true
+    },
+    {
+        "id": 91,
+        "file": "http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Рифей ТВ",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 92,
+        "file": "http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 (+1)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 93,
+        "file": "http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 (+3)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 94,
+        "file": "http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 (-1)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 95,
+        "file": "http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 +1",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 96,
+        "file": "http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 +3",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 97,
+        "file": "http://s14553.cdn.ngenix.net/hls/CH_R04_OTT_DV_SLIN_ROSSIA1_SLIN/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Россия 1 +8",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 98,
+        "file": "https://sitv.ru/hls/stv1024.m3u8?checkedby:iptvcat.net",
+        "img": "https://sitv.ru/img/stv-news/111111/S1_logo.jpg",
+        "title": "С1 (Сургут)",
+        "group": "Local",
+        "tag": [
+            "Local"
+        ],
+        "work": true
+    },
+    {
+        "id": 99,
+        "file": "http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8?checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "СТС Прима",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    },
+    {
+        "id": 100,
+        "file": "http://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8?version=2&checkedby:iptvcat.net",
+        "img": "https://i.ibb.co/sjwXGh4/tv-channel.png",
+        "title": "Саха (Якутск)",
+        "group": "Undefined",
+        "tag": [
+            "Undefined"
+        ],
+        "work": true
+    }
 ]

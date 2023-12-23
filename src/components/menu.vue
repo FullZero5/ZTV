@@ -12,6 +12,7 @@
             </svg>
             <span class="flex-1 ml-3 text-left whitespace-nowrap" :sidebar-toggle-item="`dropdown-layouts${index}`">{{ item
             }}</span>
+
             <svg sidebar-toggle-item="" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
@@ -21,20 +22,30 @@
         </button>
         <ul :id="`dropdown-layouts${index}`" class="py-2 space-y-2 hidden">
             <li v-for="url in getGroupUrls.get(item)">
-                <a href="#" :key="url.id" :id="url.id" class="flex items-center p-2 text-base text-gray-900 
-                    transition duration-75 rounded-lg pl-11 
-                    group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
-                    @click="getId(url.id)">{{ url.title }}</a>
+                <a href="#" :key="url.id" :id="url.id" @click="getId(url.id)" 
+                    class="flex items-center p-2 text-base text-gray-900 
+                    transition duration-75 rounded-lg
+                    group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                    <!--img-->
+                    <tvImages :urlLogo="url.img" :urlTitle="url.title"/>
+                    
+                    <div class="w-full pl-3">
+                        <div class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">{{ url.title }}</div>               
+                    </div>
+                </a>
             </li>
-
         </ul>
     </ul>
 </template>
 <script>
 import { useUrlsStore } from '../store'
 import { storeToRefs } from 'pinia'
+import tvImages from '../components/imagesTV.vue'
 
 export default {
+    components: {
+        tvImages
+    },
     setup() {
         const urlsStore = useUrlsStore()
         const { getGroupUrls } = storeToRefs(urlsStore)
