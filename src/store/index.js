@@ -6,6 +6,7 @@ export const useUrlsStore = defineStore('urls', {
   state: () => ({   
     selectUrl: null,
     selectUrlID: 1,
+    selectUrlTitle: '',
     urls: []
   }),
   actions: {
@@ -18,9 +19,11 @@ export const useUrlsStore = defineStore('urls', {
       }
     },
     selectVideo(id) {
-      const { file } = id ? this.urls.find( item => item.id === id) : this.urls[0].file
+      const { file, title } = id ? this.urls.find( item => item.id === id) : this.urls[0].file
       this.selectUrl = file
       this.selectUrlID = id
+      this.selectUrlTitle = title
+
     },
     async setWorkingChannel() {
       const index  = this.urls.findIndex(item => item.id === this.selectUrlID)
@@ -42,6 +45,7 @@ export const useUrlsStore = defineStore('urls', {
     getFirstUrl()  { return this.urls[this.selectUrlID].file },
     getGroupUrls() {
       return groupBy(this.urls, 'group')
-    }
+    },
+    getTitle() { return this.selectUrlTitle }
   }
 })

@@ -1,8 +1,10 @@
 <script setup>
+import helpWindows from './components/helpWindows.vue'
+import titleChanel from './components/titleChanel.vue'
 import notWorkButton from './components/notWorkButton.vue'
 import videoPlayer from './components/videoPlayer.vue'
-import footerCp from './components/footer.vue'
-import slidebarCp from './components/sidebar.vue'
+import footerPages from './components/footerPages.vue'
+import slidebarCp from './components/sideBar.vue'
 import { useDark, useToggle } from '@vueuse/core'
 import { useUrlsStore } from './store'
 import { useUIelements } from './store/ui'
@@ -27,8 +29,8 @@ urlsStore.fetchUrls()
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clip-rule="evenodd"></path>
             </svg>
-            <svg id="toggleSidebarMobileClose" :class="uiStore.getMenu ? 'hidden' : null" class="w-6 h-6" fill="currentColor"
-              viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg id="toggleSidebarMobileClose" :class="uiStore.getMenu ? 'hidden' : null" class="w-6 h-6"
+              fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
                 d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
                 clip-rule="evenodd"></path>
@@ -55,41 +57,44 @@ urlsStore.fetchUrls()
                 fill-rule="evenodd" clip-rule="evenodd"></path>
             </svg>
           </button>
+          <button type="button" data-modal-target="default-modal" data-modal-toggle="default-modal"
+                class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+            <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"></path></svg>
+          </button>
           <div id="tooltip-toggle" role="tooltip"
             class="absolute z-10 inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm tooltip opacity-0 invisible"
             style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(1741px, 63px);"
-            data-popper-placement="bottom">
-            Toggle dark mode
-            <div class="tooltip-arrow" data-popper-arrow=""
-              style="position: absolute; left: 0px; transform: translate(69px, 0px);"></div>
+            data-popper-placement="bottom">Toggle dark mode
+            <div class="tooltip-arrow" data-popper-arrow="" style="position: absolute; left: 0px; transform: translate(69px, 0px);"></div>
           </div>
-
-
         </div>
       </div>
     </div>
   </nav>
+  <helpWindows />
   <div class="flex pt-16 overflow-hidden bg-gray-50 dark:bg-gray-900">
     <slidebarCp />
-    <div class="fixed inset-0 z-10 bg-gray-900/50 dark:bg-gray-900/90" id="sidebarBackdrop"
-      :class="uiStore.getMenu ? 'hidden' : null" @click="uiStore.togleMenu"></div>
+    <div class="fixed inset-0 z-10 bg-gray-900/50 dark:bg-gray-900/90" 
+      id="sidebarBackdrop"
+      :class="uiStore.getMenu ? 'hidden' : null" 
+      @click="uiStore.togleMenu">
+    </div>
     <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900">
       <main>
         <div class="px-4 pt-6">
           <div class="p-2 bg-white border border-gray-200 shadow-sm dark:border-gray-700 sm:p-2 dark:bg-gray-800">
             <videoPlayer />
-            <div class="flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700">
-            <div>
-              <!-- Dropdown menu -->          
-            </div>
-            <!-- button -->
-            <notWorkButton />   
-          </div>             
-                      
+            <!-- card footer -->
+            <div
+              class="flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700">
+              <titleChanel />
+              <notWorkButton />
             </div>
           </div>
+        </div>
       </main>
-      <footerCp />
+      <footerPages />
     </div>
   </div>
 </template>
