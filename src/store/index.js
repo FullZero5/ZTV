@@ -13,7 +13,7 @@ export const useUrlsStore = defineStore('urls', {
     async fetchUrls() {
       if (localStorage.getItem('tvchannels')) {
         this.urls = JSON.parse(localStorage.getItem('tvchannels')).filter(channel => channel.work)
-        console.log(this.urls)
+        //console.log(this.urls)
       } else {
         //this.urls = urlsData
         localStorage.setItem('tvchannels', JSON.stringify(urlsData))
