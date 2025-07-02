@@ -23,3 +23,4 @@ support/*
 *.njsproj
 *.sln
 *.sw?
+src/assets/loading.gif:Zone.Identifier
