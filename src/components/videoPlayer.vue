@@ -207,7 +207,7 @@ watch(selectedChannel, (newVal) => {
   }
 }, { immediate: true })
 
-const changeQuality = (quality: number) => {
+const changeQuality = () => {
   if (hlsInstance.value) {
     try {
       hlsInstance.value.setQuality(Number(selectedQuality.value))
