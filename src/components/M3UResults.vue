@@ -39,6 +39,11 @@ watch(selectedPlaylistId, (newVal) => {
   console.log('Selected playlist ID changed:', newVal)
 })
 
+// Для отладки
+watch(selectedPlaylist, (newVal) => {
+  console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
+}, { deep: true })
+
 const handleCheckboxClick = (itemId: number, value: boolean | 'indeterminate') => {
   console.log('Checkbox clicked:', { itemId, value })
 
@@ -61,10 +66,7 @@ const handleCheckboxClick = (itemId: number, value: boolean | 'indeterminate') =
   updateItemStatus(Number(selectedPlaylistId.value), itemId, checked)
 }
 
-// Для отладки
-watch(selectedPlaylist, (newVal) => {
-  console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
-}, { deep: true })
+
 </script>
 
 <template>

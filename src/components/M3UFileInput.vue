@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Button } from '@/components/ui/button'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
+import { cn } from '@/lib/utils'
+import { buttonVariants } from '@/components/ui/button'
 import { File } from 'lucide-vue-next'
 
 defineProps<{
@@ -24,7 +31,7 @@ const triggerFileInput = () => {
 </script>
 
 <template>
-  <div class="file-input-container">
+  <nav class="grid gap-1 px-2 group-[[data-collapsed=true]]:justify-center group-[[data-collapsed=true]]:px-2">
     <input 
       ref="fileInput"
       type="file" 
@@ -34,22 +41,28 @@ const triggerFileInput = () => {
       aria-label="Select M3U file"
       :disabled="disabled"
     >
-    
-    <Button 
-      @click="triggerFileInput"
-      class="w-full bg-sidebar-primary text-sidebar-primary-foreground shadow-none"
-      size="sm"
-      :disabled="disabled"
-    >
-      <slot>
-        <span v-if="!disabled" class="flex items-center">
-          <File class="ml-2 h-4 w-4" />
-           Файл
-         </span>
-        <span v-else>Закрузка...</span>
-      </slot>
-    </Button>
-  </div>
+    <Tooltip :delay-duration="0">
+          <TooltipTrigger as-child>
+            <Button 
+              @click="triggerFileInput"
+              :class="cn(
+                buttonVariants({ variant: 'destructive', size: 'icon' }),
+                'h-9 w-9 cursor-pointer'
+              )"
+              :disabled="disabled"
+            >
+              <slot>
+                <span v-if="!disabled">
+                  <File class="h-4 w-4" />
+                </span>
+              </slot>
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="right" class="flex items-center gap-4">
+            Загрузить файл
+          </TooltipContent>
+        </Tooltip>
+  </nav>
 </template>
 
 <style scoped>
@@ -64,4 +77,5 @@ const triggerFileInput = () => {
   width: 0;
   height: 0;
 }
+
 </style>

@@ -1,61 +1,104 @@
 <template>
-  <div>
-    <!-- Видеоплеер с обработкой состояний -->
-    <div class="relative">
-      <video
-        ref="videoElement"
-        controls
-        :poster="selectedChannel?.img || ''"
-        class="w-full"
-        @play="isPlaying = true"
-        @pause="isPlaying = false"
-        @error="handleVideoError"
-      ></video>
-      
-      <!-- Индикатор загрузки -->
-      <div v-if="isLoading" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
-        <span class="text-white">Загрузка...</span>
+  <div class="flex h-full flex-col">
+    <div class="flex items-center p-2">
+      <div class="flex items-center gap-2">
+        <Tooltip v-if="showControls && selectedChannel">
+          <TooltipTrigger as-child>
+            <Button variant="ghost" size="icon" :disabled="isLoading" @click="togglePlay">
+              <component :is="isPlaying ? Pause : Play" class="size-4" />
+              <span class="sr-only">{{ isPlaying ? 'Пауза' : 'Воспроизведение' }}</span>
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent>{{ isPlaying ? 'Пауза' : 'Воспроизведение' }}</TooltipContent>
+        </Tooltip>
       </div>
-      
-      <!-- Сообщение об ошибке -->
-      <div v-if="errorMessage" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
-        <span class="text-red-500">{{ errorMessage }}</span>
+      <div class="ml-auto flex items-center gap-2">
+        Два
+      </div>
+      <Separator orientation="vertical" class="mx-2 h-6" />
+      <DropdownMenu v-if="showControls && selectedChannel">
+        <DropdownMenuTrigger as-child>
+          <Button variant="ghost" size="icon">
+            
+            <ChevronDown class="size-4" />
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end" class="w-40">
+          <DropdownMenuLabel>Выбор качества</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem v-for="quality in availableQualities" :key="quality" @click="changeQuality(quality)"
+            :class="{ 'bg-accent': selectedQuality === quality }">
+            {{ quality }}p
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem @click="changeQuality(-1)" :class="{ 'bg-accent': selectedQuality === -1 }">
+            Авто
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
+    <Separator />
+    <div v-if="selectedChannel" class="flex flex-1 flex-col">
+      <div class="flex items-start p-4">
+        <div class="flex items-start gap-4 text-sm">
+          <Avatar :src="selectedChannel.img" alt="Image">
+            <AvatarFallback>
+              TV
+            </AvatarFallback>
+          </Avatar>
+
+          <div class="grid gap-1">
+            <div class="font-semibold">
+              <h3>{{ selectedChannel.title }}</h3>
+            </div>
+            <div class="line-clamp-1 text-xs" v-if="isLoading">
+              Загрузка...
+            </div>
+            <div class="line-clamp-1 text-xs" v-if="errorMessage">
+              <Alert variant="destructive">
+                <AlertCircle class="w-4 h-4" />
+                <AlertTitle>Ошибка</AlertTitle>
+                <AlertDescription>
+                  {{ errorMessage }}
+                </AlertDescription>
+              </Alert>
+            </div>
+          </div>
+        </div>
+        <div v-if="selectedChannel" class="ml-auto text-xs text-muted-foreground">
+          {{ selectedChannel.group }}
+        </div>
+      </div>
+      <Separator />
+      <div class="flex-1">
+        <!-- Видеоплеер с обработкой состояний -->
+        <video ref="videoElement" controls :poster="selectedChannel?.img || ''" @play="isPlaying = true"
+          @pause="isPlaying = false" @error="handleVideoError">
+        </video>
+      </div>
+      <Separator class="mt-auto" />
+      <div class="p-4">
+        форма ответа
       </div>
     </div>
-    
-    <!-- Информация о канале -->
-    <div v-if="selectedChannel" class="mt-2 p-2 bg-gray-100 rounded">
-      <h2 class="text-xl font-bold">{{ selectedChannel.title }}</h2>
-      <p class="text-gray-600">{{ selectedChannel.group }}</p>
-    </div>
-    
-    <!-- Управление качеством -->
+
+    <!-- 
     <div v-if="showControls && selectedChannel" class="mt-2 flex gap-2">
-      <select 
-        v-model="selectedQuality" 
-        @change="changeQuality"
-        class="rounded border p-1"
-        aria-label="Выбор качества видео"
-      >
+      <select v-model="selectedQuality" @change="changeQuality" class="rounded border p-1"
+        aria-label="Выбор качества видео">
         <option value="-1">Авто</option>
-        <option 
-          v-for="quality in availableQualities" 
-          :key="quality"
-          :value="quality"
-        >
+        <option v-for="quality in availableQualities" :key="quality" :value="quality">
           {{ quality }}p
         </option>
       </select>
-      
-      <button 
-        @click="togglePlay"
-        class="rounded bg-blue-500 px-3 py-1 text-white"
-        :disabled="isLoading"
-        aria-label="Кнопка воспроизведения/паузы"
-      >
+
+      <button @click="togglePlay" class="rounded bg-blue-500 px-3 py-1 text-white" :disabled="isLoading"
+        aria-label="Кнопка воспроизведения/паузы">
         {{ isPlaying ? 'Пауза' : 'Воспроизведение' }}
       </button>
-    </div>
+    </div>Управление качеством -->
+
+
   </div>
 </template>
 
@@ -63,6 +106,20 @@
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { createNewHls, isHlsSupported } from '../lib/videoHls'
 import { useSelectedChannel } from '../useSelectedChannel'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
+import { AlertCircle, ChevronDown, Pause, Play } from 'lucide-vue-next'
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { Separator } from '@/components/ui/separator'
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
+import { Button } from '@/components/ui/button'
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator
+} from '@/components/ui/dropdown-menu'
 
 interface Channel {
   id: string
@@ -87,7 +144,7 @@ const availableQualities = ref<number[]>([360, 720, 1080]) // Будет обн�
 // Обработчик ошибок видео
 const handleVideoError = () => {
   if (!videoElement.value) return
-  
+
   errorMessage.value = 'Ошибка воспроизведения видео'
   console.error('Video error:', videoElement.value.error)
 }
@@ -95,10 +152,10 @@ const handleVideoError = () => {
 // Инициализация/переинициализация плеера при смене канала
 const initPlayer = async () => {
   if (!videoElement.value || !selectedChannel.value) return
-  
+
   isLoading.value = true
   errorMessage.value = ''
-  
+
   try {
     // Очищаем предыдущий экземпляр
     if (hlsInstance.value) {
@@ -159,7 +216,7 @@ watch(selectedChannel, (newVal) => {
   }
 }, { immediate: true })
 
-const changeQuality = () => {
+const changeQuality = (quality: number) => {
   if (hlsInstance.value) {
     try {
       hlsInstance.value.setQuality(Number(selectedQuality.value))
@@ -193,9 +250,19 @@ onBeforeUnmount(() => {
     videoElement.value.pause()
     videoElement.value.src = ''
   }
-  
+
   if (hlsInstance.value) {
     hlsInstance.value.destroy()
   }
 })
 </script>
+
+<style scoped>
+video {
+  transition: opacity 0.3s ease;
+}
+
+video.invisible {
+  opacity: 0;
+}
+</style>

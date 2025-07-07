@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IndexPage from './pages/dashboard/index.vue'
+import IndexPageVideo from './pages/web/index.vue'
 import { ref, provide, onBeforeUnmount } from 'vue'
 import Worker from './lib/worker?worker'
 
@@ -35,7 +35,8 @@ onBeforeUnmount(terminateWorker)
 
 <template>
   <main>
-     <IndexPage/>
+     
+     <IndexPageVideo/>
   </main>
 </template>
 

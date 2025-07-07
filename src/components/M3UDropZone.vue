@@ -27,7 +27,7 @@ const { isOverDropZone } = useDropZone(dropZone, (files) => {
     :class="{ 'over': isOverDropZone, 'disabled': disabled }"
     aria-label="File drop zone"
   >
-    <p>Перетащите файл M3U сюда</p>
+    
     <p class="hint">Максимальный размер: {{ MAX_FILE_SIZE_MB }} MB</p>
   </div>
 </template>
