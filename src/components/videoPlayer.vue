@@ -103,7 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
+import { ref, watch, onBeforeUnmount } from 'vue'
 import { createNewHls, isHlsSupported } from '../lib/videoHls'
 import { useSelectedChannel } from '../useSelectedChannel'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
@@ -120,15 +120,6 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator
 } from '@/components/ui/dropdown-menu'
-
-interface Channel {
-  id: string
-  title: string
-  group: string
-  img?: string
-  file: string
-  // другие свойства при необходимости
-}
 
 const { selectedChannel } = useSelectedChannel()
 

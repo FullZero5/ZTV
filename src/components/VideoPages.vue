@@ -2,18 +2,7 @@
 /** */
 import { useM3UStore } from '../useM3UStore'
 
-const {
-  playlists,
-  removePlaylist,
-  selectPlaylist,
-  selectedPlaylist,
-  selectedPlaylistId,
-  updateItemStatus
-} = useM3UStore()
-
-
-console.log('Playlists:', playlists.value)
-
+const { playlists, selectedPlaylist, selectedPlaylistId } = useM3UStore()
 
 watch(playlists, (newVal) => {
   console.log('Playlists updated:', newVal)
