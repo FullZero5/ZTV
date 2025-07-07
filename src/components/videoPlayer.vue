@@ -26,12 +26,12 @@
         <DropdownMenuContent align="end" class="w-40">
           <DropdownMenuLabel>Выбор качества</DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem v-for="quality in availableQualities" :key="quality" @click="changeQuality(quality)"
+          <DropdownMenuItem v-for="quality in availableQualities" :key="quality" @click="changeQuality()"
             :class="{ 'bg-accent': selectedQuality === quality }">
             {{ quality }}p
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem @click="changeQuality(-1)" :class="{ 'bg-accent': selectedQuality === -1 }">
+          <DropdownMenuItem @click="changeQuality()" :class="{ 'bg-accent': selectedQuality === -1 }">
             Авто
           </DropdownMenuItem>
         </DropdownMenuContent>
@@ -81,24 +81,6 @@
         форма ответа
       </div>
     </div>
-
-    <!-- 
-    <div v-if="showControls && selectedChannel" class="mt-2 flex gap-2">
-      <select v-model="selectedQuality" @change="changeQuality" class="rounded border p-1"
-        aria-label="Выбор качества видео">
-        <option value="-1">Авто</option>
-        <option v-for="quality in availableQualities" :key="quality" :value="quality">
-          {{ quality }}p
-        </option>
-      </select>
-
-      <button @click="togglePlay" class="rounded bg-blue-500 px-3 py-1 text-white" :disabled="isLoading"
-        aria-label="Кнопка воспроизведения/паузы">
-        {{ isPlaying ? 'Пауза' : 'Воспроизведение' }}
-      </button>
-    </div>Управление качеством -->
-
-
   </div>
 </template>
 
