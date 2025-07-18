@@ -156,7 +156,7 @@ const initPlayer = async () => {
             isLoading.value = false
           },
           onQualityAvailable: (qualities) => {
-            console.log('Доступные качества:', qualities)
+            //console.log('Доступные качества:', qualities)
             availableQualities.value = qualities
           }
         }

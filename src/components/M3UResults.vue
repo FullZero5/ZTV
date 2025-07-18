@@ -32,34 +32,34 @@ const {
 } = useM3UStore()
 
 watch(playlists, (newVal) => {
-  console.log('Playlists updated:', newVal)
+  //console.log('Playlists updated:', newVal)
 }, { deep: true })
 
 watch(selectedPlaylistId, (newVal) => {
-  console.log('Selected playlist ID changed:', newVal)
+  //console.log('Selected playlist ID changed:', newVal)
 })
 
 // Для отладки
 watch(selectedPlaylist, (newVal) => {
-  console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
+  //console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
 }, { deep: true })
 
 const handleCheckboxClick = (itemId: number, value: boolean | 'indeterminate') => {
-  console.log('Checkbox clicked:', { itemId, value })
+  ////console.log('Checkbox clicked:', { itemId, value })
 
   if (!selectedPlaylistId.value) {
-    console.error('No selected playlist ID')
+    //console.error('No selected playlist ID')
     return
   }
 
   const checked = value === true // Нормализуем в boolean
-  console.log('Updating:', { itemId, checked })
+  //console.log('Updating:', { itemId, checked })
 
   // Вариант 1: Если используете прямое изменение
   const item = selectedPlaylist.value?.data.find((i: { id: number }) => i.id === itemId)
   if (item) {
     item.work = checked
-    console.log('Direct update:', item)
+    //console.log('Direct update:', item)
   }
 
   // Вариант 2: Если используете хранилище

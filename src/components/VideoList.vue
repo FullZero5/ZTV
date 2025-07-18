@@ -33,21 +33,21 @@ function getBadgeVariantFromLabel(label: string) {
 }
 
 const handleCheckboxClick = (itemId: number, value: boolean | 'indeterminate') => {
-  console.log('Checkbox clicked:', { itemId, value })
+  //console.log('Checkbox clicked:', { itemId, value })
 
   if (!selectedPlaylistId.value) {
-    console.error('No selected playlist ID')
+    //console.error('No selected playlist ID')
     return
   }
 
   const checked = value === true // Нормализуем в boolean
-  console.log('Updating:', { itemId, checked })
+  //console.log('Updating:', { itemId, checked })
 
   // Вариант 1: Если используете прямое изменение
   const item = selectedPlaylist.value?.data.find((i: { id: number }) => i.id === itemId)
   if (item) {
     item.work = checked
-    console.log('Direct update:', item)
+    //console.log('Direct update:', item)
   }
 
   // Вариант 2: Если используете хранилище
