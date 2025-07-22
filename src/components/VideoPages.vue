@@ -5,16 +5,16 @@ import { useM3UStore } from '../useM3UStore'
 const { playlists, selectedPlaylist, selectedPlaylistId } = useM3UStore()
 
 watch(playlists, (newVal) => {
-  console.log('Playlists updated:', newVal)
+  //console.log('Playlists updated:', newVal)
 }, { deep: true })
 
 watch(selectedPlaylistId, (newVal) => {
-  console.log('Selected playlist ID changed:', newVal)
+  //console.log('Selected playlist ID changed:', newVal)
 })
 
 // Для отладки
 watch(selectedPlaylist, (newVal) => {
-  console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
+  //console.log('Playlist updated:', JSON.parse(JSON.stringify(newVal)))
 }, { deep: true })
 
 /**  */
